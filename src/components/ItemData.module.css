@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+.item {
+    background-color: #5C33F6;
+    width: 25%;
+    padding: 0.5em;
+    color: #CDF0EA;
+    margin: auto;
+    margin-top: 1.25em;
+    font-size: 1.25em;
+    font-family: 'Zen Loop', cursive;
+    font-weight: bold;
+    border-radius: 1.5em;
+    cursor: pointer;
+    transition: all ease-in 0.3s;
+}
+
+.item:hover {
+    transform: translateX(5%) skewX(5deg);
+}
